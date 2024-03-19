@@ -48,3 +48,11 @@ div.card {
     margin: 20px;
 }
 /*check this above work*/
+
+/*Edit the css for the pricing class to match our example. You should use flex and the cards should be centered both horizontally and vertically.*/
+.pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*check this above work*/
