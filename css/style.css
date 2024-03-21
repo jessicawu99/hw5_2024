@@ -44,14 +44,16 @@ div.card {
 
 .card {
     display: flex;
-    width: 450px;
+    flex-basis: 450px;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /*Edit the css for the pricing class to match our example. You should use flex and the cards should be centered both horizontally and vertically.*/
 
 .pricing {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
