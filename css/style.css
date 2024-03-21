@@ -41,18 +41,33 @@ div.card {
 }
 
 /*Edit the css for the card class to match our example. Achieve this by using a flex-property to specify an initial “size” of 450px.  You need to think about this from a “flex” perspective and realize that flex-direction will affect the size of the elements.  You can see that in the mobile view they all have the same width. */
+
 .card {
     display: flex;
-    flex-direction: column;
     width: 450px;
-    margin: 20px;
+    flex-direction: column;
 }
-/*check this above work*/
 
 /*Edit the css for the pricing class to match our example. You should use flex and the cards should be centered both horizontally and vertically.*/
+
 .pricing {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-/*check this above work*/
+
+
+/*Style the images in the gallery class. These elements will have a solid 10px border with a color of #50C7C7, 10px margin on all four sides and a width of 300px. */
+.gallery img {
+    border: solid 10px #50C7C7;
+    margin: 10px;
+    width: 300px;
+}
+
+/*Edit the css for the gallery class to use flex to match our example.*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
